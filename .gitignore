@@ -1,0 +1,19 @@
+# Python virtual environments
+Back-End/venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Secret environment variables
+Back-End/.env
+
+# Node.js packages
+Front-End/node_modules/
+
+# Log files
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db

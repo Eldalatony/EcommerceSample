@@ -1,0 +1,15 @@
+.register-page{
+    background: #2A7B9B;
+    background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(135, 123, 166, 1) 49%, rgba(49, 15, 117, 1) 100%);
+}
+.hello{
+    cursor: pointer;
+}
+.holder{
+    width: 100%;
+}
+@media (min-width: 768px) {
+  .holder {
+    width: 40%; /* On medium screens and up */
+  }
+}

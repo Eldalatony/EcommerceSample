@@ -6,8 +6,8 @@ export default function AppRoutes() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<LoginPage />} />
-        <Route path="/a" element={<RegisterPage />} />
+        <Route path="/auth/login" element={<LoginPage />} />
+        <Route path="/" element={<RegisterPage />} />
       </Routes>
     </BrowserRouter>
   );
